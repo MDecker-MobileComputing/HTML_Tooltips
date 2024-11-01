@@ -1,0 +1,51 @@
+
+body {
+
+    font-family: Arial;
+}
+
+main {
+	background: transparent;
+	border-color: transparent;
+}
+
+.kurzinfo {
+	position: relative;
+	color: blue;
+	text-decoration: underline;
+}
+
+.kurzinfo::after {
+	content: attr(data-kurzinfo);
+	position: absolute;
+	bottom: 130%;
+	left: 20%;
+	background: yellow;
+	padding: 0.2em 0.4em;
+	color: black;
+	border-radius: 0.3em;
+	opacity: 0;
+	transition: all 0.3s;
+	min-width: 10em;
+	max-width: 15em;
+}
+
+.kurzinfo::before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 1em solid #3983ab;
+	border-left: 1em solid transparent;
+	border-right: 1em solid transparent;
+	transition: all 0.3s;
+	opacity: 0;
+	left: 30%;
+	bottom: 90%;
+}
+
+.kurzinfo:hover::after,
+.kurzinfo:focus::after {
+	opacity: 1;
+	bottom: 100%;
+}
