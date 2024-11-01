@@ -4,7 +4,7 @@
 
 Dynamische Tooltips mit *Custom Data Attribute* in HTML nach 
 [diesem Beispiel von *selfhtml*](https://wiki.selfhtml.org/wiki/HTML/Attribute/data-*#Anwendungsbeispiel)
-nur mit CSS ohne JavaScript.
+nur mit CSS (d.h. kein JavaScript).
 
 <br>
 
