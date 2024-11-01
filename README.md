@@ -9,6 +9,7 @@ nur mit CSS (d.h. kein JavaScript).
 <br>
 
 Diese HTML-Seite in diesem Repo kann unter der folgenden URL direkt im Browser angezeigt werden:
+
 https://mdecker-mobilecomputing.github.io/HTML_Tooltips/
 
 <br>
